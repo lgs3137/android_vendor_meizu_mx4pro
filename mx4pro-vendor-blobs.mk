@@ -1,10 +1,10 @@
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -71,7 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/mx4pro/proprietary/lib/libmtel.so:system/lib/libmtel.so \
     vendor/meizu/mx4pro/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/meizu/mx4pro/proprietary/lib/libsimal.so:system/lib/libsimal.so \
-    vendor/meizu/mx4pro/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/meizu/mx4pro/proprietary/lib/libvcm.so:system/lib/libvcm.so \
     vendor/meizu/mx4pro/proprietary/vendor/firmware/73BIEB1.img:system/vendor/firmware/73BIEB1.img \
     vendor/meizu/mx4pro/proprietary/vendor/firmware/73BIEBS1.img:system/vendor/firmware/73BIEBS1.img \
