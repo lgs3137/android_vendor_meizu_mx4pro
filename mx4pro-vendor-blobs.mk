@@ -23,7 +23,11 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/mx4pro/proprietary/bin/board_info:system/bin/board_info \
     vendor/meizu/mx4pro/proprietary/bin/cploadserver:system/bin/cploadserver \
     vendor/meizu/mx4pro/proprietary/bin/eeh_server:system/bin/eeh_server \
+    vendor/meizu/mx4pro/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/meizu/mx4pro/proprietary/bin/gpslogd:system/bin/gpslogd \
+    vendor/meizu/mx4pro/proprietary/bin/gxFpDaemon:system/bin/gxFpDaemon \
     vendor/meizu/mx4pro/proprietary/bin/modem_monitor:system/bin/modem_monitor \
+    vendor/meizu/mx4pro/proprietary/bin/mrvl_diag:system/bin/mrvl_diag \
     vendor/meizu/mx4pro/proprietary/bin/nvmserver:system/bin/nvmserver \
     vendor/meizu/mx4pro/proprietary/bin/simal:system/bin/simal \
     vendor/meizu/mx4pro/proprietary/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg.bin:system/etc/firmware/audience/cvqmodels/adnc_cvq_detection_bkg.bin \
@@ -66,12 +70,25 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/mx4pro/proprietary/etc/TTPCom_NRAM2_ABMM_WRITEABLE_DATA_CUC.gki:system/etc/TTPCom_NRAM2_ABMM_WRITEABLE_DATA_CUC.gki \
     vendor/meizu/mx4pro/proprietary/etc/TTPCom_NRAM2_ABMM_WRITEABLE_DATA.gki:system/etc/TTPCom_NRAM2_ABMM_WRITEABLE_DATA.gki \
     vendor/meizu/mx4pro/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
+    vendor/meizu/mx4pro/proprietary/lib/hw/gps.m76.so:system/lib/hw/gps.m76.so \
+    vendor/meizu/mx4pro/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
     vendor/meizu/mx4pro/proprietary/lib/hw/sensors.m76.so:system/lib/hw/sensors.m76.so \
+    vendor/meizu/mx4pro/proprietary/lib/hw/camera.m76.so:system/lib/hw/camera.m76.so \
+    vendor/meizu/mx4pro/proprietary/lib/hw/nfc_nci.pn54x.m76.so:system/lib/hw/nfc_nci.pn54x.m76.so \
+    vendor/meizu/mx4pro/proprietary/lib/libcaFingerPrintShared.so:system/lib/libcaFingerPrintShared.so \
+    vendor/meizu/mx4pro/proprietary/lib/libfp_client.so:system/lib/libfp_client.so \
+    vendor/meizu/mx4pro/proprietary/lib/libfpservice.so:system/lib/libfpservice.so \
+    vendor/meizu/mx4pro/proprietary/lib/libhal.so:system/lib/libhal.so \
+    vendor/meizu/mx4pro/proprietary/lib/libimageproc.so:system/lib/libimageproc.so \
+    vendor/meizu/mx4pro/proprietary/lib/libload_lib.so:system/lib/libload_lib.so \
     vendor/meizu/mx4pro/proprietary/lib/libmarvell-ril.so:system/lib/libmarvell-ril.so \
     vendor/meizu/mx4pro/proprietary/lib/libmtel.so:system/lib/libmtel.so \
-    vendor/meizu/mx4pro/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/meizu/mx4pro/proprietary/lib/libopencv_java.so:system/lib/libopencv_java.so \
+    vendor/meizu/mx4pro/proprietary/lib/libp61-jcop-kit.so:system/lib/libp61-jcop-kit.so \
     vendor/meizu/mx4pro/proprietary/lib/libsimal.so:system/lib/libsimal.so \
     vendor/meizu/mx4pro/proprietary/lib/libvcm.so:system/lib/libvcm.so \
+    vendor/meizu/mx4pro/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+    vendor/meizu/mx4pro/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
     vendor/meizu/mx4pro/proprietary/vendor/firmware/73BIEB1.img:system/vendor/firmware/73BIEB1.img \
     vendor/meizu/mx4pro/proprietary/vendor/firmware/73BIEBS1.img:system/vendor/firmware/73BIEBS1.img \
     vendor/meizu/mx4pro/proprietary/vendor/firmware/73TPKB1.img:system/vendor/firmware/73TPKB1.img \
@@ -110,4 +127,5 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/mx4pro/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/meizu/mx4pro/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
     vendor/meizu/mx4pro/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
-    vendor/meizu/mx4pro/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so
+    vendor/meizu/mx4pro/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/meizu/mx4pro/proprietary/vendor/lib/libsfb_hal.so:system/vendor/lib/libsfb_hal.so
