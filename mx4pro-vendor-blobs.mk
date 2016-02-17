@@ -66,7 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/mx4pro/proprietary/etc/TTPCom_NRAM2_ABMM_WRITEABLE_DATA.gki:system/etc/TTPCom_NRAM2_ABMM_WRITEABLE_DATA.gki \
     vendor/meizu/mx4pro/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
     vendor/meizu/mx4pro/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-    vendor/meizu/mx4pro/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/meizu/mx4pro/proprietary/lib/hw/gps.m76.so:system/lib/hw/gps.m76.so \
     vendor/meizu/mx4pro/proprietary/lib/hw/sensors.m76.so:system/lib/hw/sensors.m76.so \
     vendor/meizu/mx4pro/proprietary/lib/libcaFingerPrintShared.so:system/lib/libcaFingerPrintShared.so \
     vendor/meizu/mx4pro/proprietary/lib/libfp_client.so:system/lib/libfp_client.so \
@@ -107,4 +107,5 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/mx4pro/proprietary/vendor/lib/egl/gpr_list.cfg:system/vendor/lib/egl/gpr_list.cfg \
     vendor/meizu/mx4pro/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/meizu/mx4pro/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    vendor/meizu/mx4pro/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
     vendor/meizu/mx4pro/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc
